@@ -1,0 +1,15 @@
+body {
+    margin:0px;
+    background-color:black;
+    color:white;
+    border:0px;
+    padding:0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+table {
+    border:0px;
+}
+.anchor-default {
+    text-decoration:none!important;
+    color:white
+}
