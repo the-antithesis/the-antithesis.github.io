@@ -10,8 +10,16 @@
     <meta name="googlebot" content="notranslate, index, nofollow">
     <title>The Antithesis</title>
     <link rel="stylesheet" href="./default.css">
+    <script>
+        document.getElementById('bar').width=window.innerWidth;
+        document.getElementById('bar').height=window.innerHeight/20;
+        window.onresize = function() {
+            document.getElementById('bar').width=window.innerWidth;
+            document.getElementById('bar').height=window.innerHeight/20;
+        }
+    </script>
 </head>
 <body>
-    <iframe src="./navbar.html" id="bar" style="width:100%; height:5%;"></iframe>
+    <iframe src="./navbar.html" id="bar" style="border:none;"></iframe>
 </body>
 </html>
